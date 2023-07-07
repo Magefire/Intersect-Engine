@@ -22,6 +22,10 @@
     <DisableFody>true</DisableFody>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Intersect-Engine\build\Server\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Networking\IntersectNetworkServer.cs" />
     <Compile Remove="Networking\IntersectNetworkSocket.cs" />

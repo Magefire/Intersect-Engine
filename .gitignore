@@ -220,3 +220,6 @@ packages/
 
 /assets/**
 !/assets/*.*
+
+#Build folder:
+build/
